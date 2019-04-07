@@ -1,0 +1,36 @@
+.social-list {
+  display: flex;
+  list-style-type: none;
+}
+.social-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 5px;
+
+}
+.social-icon_vk {
+  background: url('/icon-vk.png');
+}
+.social-icon_telegram {
+  background: url('/icon-telegram.png');
+}
+.social-icon_youtube {
+  background: url('/icon-youtube.png');
+}
+.social-icon_twitch {
+  background: url('/icon-twitch.png');
+}
+.social-icon_twitter {
+  background: url('/icon-twitter.png');
+}
+.social-icon_web {
+  background: url('/icon-web.png');
+}
+.social-icon span {
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  overflow: hidden;
+  top: -10px;
+ }
