@@ -6,7 +6,7 @@ import NewsItem from "./NewsItem";
 const NewsPage = ({ news, dispatch, isFetching, error }) => {
   useEffect(() => {
     dispatch(fetchNewsIfNeeded());
-  }, []);
+  }, [dispatch]);
 
   return isFetching ? (
     <p>loadiing...</p>

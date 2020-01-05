@@ -5,7 +5,7 @@ import { loadUserDataIfNeeded } from "../actions/user";
 const Profile = ({ id, dispatch, userData, isLoading }) => {
   useEffect(() => {
     dispatch(loadUserDataIfNeeded(id));
-  }, []);
+  }, [dispatch, id]);
 
   return isLoading ? (
     <p>Loading...</p>
